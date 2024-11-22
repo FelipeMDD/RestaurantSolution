@@ -1,0 +1,30 @@
+﻿@page "/products"
+@using Shared.DTOs
+@using Shared.Models
+@using BlazorFront.Services
+@inject IProductService ProductService
+
+<h3>Lista de Produtos</h3>
+
+@if (products == null)
+{
+    <p>Carregando...</p>
+}
+else
+{
+    <ul>
+        @foreach (var product in products)
+        {
+            <li>@product.Name - @product.Price.ToString("C")</li>
+        }
+    </ul>
+}
+
+@code {
+    private List<ProductDTO> products;
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await ProductService.GetProductsAsync();
+    }
+}

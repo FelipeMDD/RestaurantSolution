@@ -1,0 +1,30 @@
+﻿@page "/orders"
+@using Shared.DTOs
+@using Shared.Models
+@using BlazorFront.Services
+@inject IOrderService OrderService
+
+<h3>Lista de Pedidos</h3>
+
+@if (orders == null)
+{
+    <p>Carregando...</p>
+}
+else
+{
+    <ul>
+        @foreach (var order in orders)
+        {
+            <li>Pedido: @order.Id - Nome Produto: @order.ProductName</li>
+        }
+    </ul>
+}
+
+@code {
+    private List<OrderDTO> orders;
+
+    protected override async Task OnInitializedAsync()
+    {
+        orders = await OrderService.GetOrdersAsync();
+    }
+}

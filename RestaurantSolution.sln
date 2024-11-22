@@ -9,17 +9,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Front", "Front", "{056A6B6E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{88188D09-35CC-4CC2-BAFA-37317A3BB507}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "SharedKernel\Shared.csproj", "{4B904D19-D9C7-4C4F-BEA9-140A530827C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "SharedKernel\Shared.csproj", "{4B904D19-D9C7-4C4F-BEA9-140A530827C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messaging", "Messaging\Messaging.csproj", "{2E69D9DA-EA0D-44B2-BAEE-07149E39B34A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messaging", "Messaging\Messaging.csproj", "{2E69D9DA-EA0D-44B2-BAEE-07149E39B34A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService", "OrderService\OrderService.csproj", "{617EDB2C-BFBE-4B5C-8AA0-5A5013B65B3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderService", "OrderService\OrderService.csproj", "{617EDB2C-BFBE-4B5C-8AA0-5A5013B65B3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService", "ProductService\ProductService.csproj", "{91B6C20F-F2FB-482E-914B-98875BBCF60A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductService", "ProductService\ProductService.csproj", "{91B6C20F-F2FB-482E-914B-98875BBCF60A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorFront", "BlazorFront\BlazorFront.csproj", "{28BED434-6017-40DC-9429-9882887645C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorFront", "BlazorFront\BlazorFront.csproj", "{28BED434-6017-40DC-9429-9882887645C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService", "PaymentService\PaymentService.csproj", "{AD7AAFD1-450C-4956-AFE1-5B41B89259EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService", "PaymentService\PaymentService.csproj", "{AD7AAFD1-450C-4956-AFE1-5B41B89259EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
