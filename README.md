@@ -37,32 +37,13 @@ A solução está organizada em múltiplos serviços, divididos da seguinte form
 ## 🛠️ **Tecnologias Utilizadas**
 - **Back-end**:
   - .NET 8 (C#)
-  - Dapper para acesso ao banco de dados.
-  - MediaR para CQRS.
+  - EF para acesso ao banco de dados.
   - Autenticação via JWT.
 - **Front-end**:
   - Blazor WebAssembly (SPA).
 - **Mensageria**:
   - RabbitMQ (planejado para comunicação entre serviços).
-- **Banco de Dados**:
-  - SQL Server (local).
-- **Containerização**:
-  - Docker para facilitar a execução e deploy dos serviços.
 
----
-
-## 🚀 **Como Executar**
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/restaurant-solution.git
-2. Configure o banco de dados no arquivo appsettings.json de cada serviço.
-3. Inicie os microserviços:
-4. Pelo Visual Studio ou Docker Compose (configuração futura).
-5. Execute o front-end Blazor WebAssembly:
-6. Certifique-se de que os microserviços estão rodando antes de abrir a aplicação.
-7. Acesse o sistema no navegador: http://localhost:5000 (ou porta configurada).
-
----
 
 ## 📝 **Funcionalidades Planejadas**
 - Integração entre os microserviços via RabbitMQ.
